@@ -32,8 +32,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             DailyNotesTheme {
 
-              val navController = rememberNavController()
-                SetupNavGraph(navController = navController)
+                DailyNotesApp()
+
+//              val navController = rememberNavController()
+//                SetupNavGraph(navController = navController)
             }
         }
     }

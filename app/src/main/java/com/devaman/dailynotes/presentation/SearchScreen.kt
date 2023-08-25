@@ -14,8 +14,8 @@ import androidx.compose.ui.graphics.Color
 import com.devaman.dailynotes.components.BackPressHandler
 
 @Composable
-fun HomeScreen() {
-    BackPressHandler()
+fun SearchScreen() {
+
     Surface(
         modifier = Modifier
             .fillMaxSize()
@@ -25,7 +25,7 @@ fun HomeScreen() {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            Text(text = "home")
+            Text(text = "search")
         }
 
     }
